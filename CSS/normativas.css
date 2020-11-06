@@ -1,0 +1,164 @@
+.nrm-cont{
+    justify-content: center;
+    padding: 50px 0;
+}
+.nrm-cont .container-nrm{
+    width: 80%;
+    margin: auto;
+}
+.container-nrm .ttl-cl-nrm{
+    display: inline-flex;
+    width: 85%;
+    font-size: 25px;
+    border: 3px solid #f0a500;
+    border-radius: 15px;
+    padding: 10px 20px;
+    align-items: center;    
+    justify-content: space-between;
+    margin: 20px 0 10px 0;
+}
+.container-nrm .ttl-cl-nrm .tittle-nrm{
+    color: #f0a500; 
+    font-size: 24px;  
+}
+.container-nrm .ttl-cl-nrm .tittle-nrm>span{
+    padding-right: 15px;
+}
+.ttl-cl-nrm .style-btn{
+    cursor: pointer;
+}
+.container-nrm .ttl-cl-nrm .icon-up{
+    color: #f0a500;
+    text-decoration: none;
+}
+.container-nrm .ttl-cl-nrm .icon-up.active{
+    display: none;
+}
+.container-nrm .ttl-cl-nrm .icon-down{
+    visibility: hidden;
+}
+.container-nrm .ttl-cl-nrm .icon-down.active{
+    color: #f0a500;
+    visibility: visible;
+    text-decoration: none;
+}
+.cont-5ss{
+    display: none;
+}
+.cont-5ss.active{
+    display: block;
+}
+
+.anuncio .cont-anuncio{
+    padding: 20px;
+    border-radius: 20px;
+    color: #1a1c20;
+    background-color: #f0a500;
+    font-size: 15px;
+    width: 90%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cont-anuncio .icon-advert{
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+.anuncio .cont-anuncio p>span{
+    color: #fff;    
+}
+
+.cont-5ss #list-cont> li:not(.categoria-nrm){
+    list-style: inside;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+#list-cont li> .numeration{
+    padding-left: 40px;
+    margin: 0;
+}
+#num-li{
+    list-style: decimal;    
+}
+
+#list-cont .categoria-nrm{
+    color: #f0a500;
+    font-size: 30px;
+    list-style: none;
+}
+
+#mapa-semifinal .mapas-caida{
+    display: inline-flex;
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.container-map{
+    margin: -8px 0 0 2px;
+}
+#mapa-semifinal .mapas-caida .container-map>img{
+    width: 140px;    
+}
+#mapa-semifinal .mapas-caida .container-map:hover{
+    background-color: #f0a500;
+}
+/*TABLA DE PUNTAJE*/
+.container-punt{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.container-punt table:not(.table-grupo-cl){
+    border-collapse: collapse;
+    margin: 15px 0;
+    text-align: center;
+}
+.container-punt table,th,td:not(.table-grupo-cl,th,td){    
+    border: 1px solid #f0a500;    
+    padding: 0px 10px;    
+}
+.container-punt table tr>th{
+    background-color: #f0a500;
+    color: #1a1c20;
+    min-width: 50px;
+}
+.container-punt .table-kill{
+    background-color: #f0a500;
+    color: #1a1c20;
+    height: 175px;    
+}
+@media(min-width:530px){
+    #mapa-semifinal .mapas-caida .container-map>img{
+        width: 200px;
+    }
+}
+@media(min-width:755px){
+    #mapa-semifinal .mapas-caida .container-map>img{
+        width: 300px;
+    }
+}
+@media(min-width:1024px){    
+    .container-punt table tr>th{
+        min-width: 150px;
+    }
+
+    #mapa-semifinal .mapas-caida{
+        display: inline-flex;
+        width: 100%;
+        overflow: hidden;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #mapa-semifinal .mapas-caida .container-map>img{
+        width: 400px;
+    }
+    
+}

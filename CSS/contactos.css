@@ -1,0 +1,208 @@
+
+
+.banner-princ .container-banner{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+.banner-princ .container-banner> img{
+    transform: scale(2);
+    padding-top: 45px;   
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;    
+}
+
+.desarrollador{
+    padding: 30px 0 0 0;
+}
+.container-powered{
+    width: 70%;
+    margin: auto;
+    background-color: #f0a500;
+    color: #1a1c20;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.container-powered .title-ar{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.fila-ctc .contactos-pwrd{
+    width: 100%;
+    text-align: center;
+}
+.fila-ctc .contactos-pwrd .ct-fila{
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.fila-ctc .contactos-pwrd .ct-fila>p:not(.cargo-p, .mail-ct){
+    font-size: 22px;
+}
+.ct-fila .cargo-p{
+    font-weight: bold;
+}
+.ct-fila .mail-ct{
+    font-size: 17px;
+}
+.logotipo-pwrd{
+    overflow: hidden;
+    text-align: center;
+}
+.logotipo-pwrd>img{
+    width: 50%;
+}
+
+/*REDES SOCIALES*/
+.redes-sociales{
+    width: 70%;
+    margin: auto;
+    color: #f0a500;
+    padding-top: 10px;
+}
+.redes-sociales .title-social{
+    text-align: center;
+}
+.redes-sociales hr{
+    background-color: #f0a500;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.redes-sociales .contenedor-redes .list-social{
+    list-style: none;
+    padding: 20px 0;
+    display: inline-flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.contenedor-redes .list-social>.contenedor-social{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.list-social .contenedor-social .enlac-social{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    color: #f0a500;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.list-social .contenedor-social .enlac-social:hover{
+    color: #fff;
+}
+.enlac-social .icon-red{
+    width: 120px;
+    height: 120px;      
+    position: relative;
+    border: 5px solid #f0a500;
+    background-color: #fff;
+    border-radius: 50%;    
+    margin: auto;
+}
+    .enlac-social .icon-red:hover{
+        border: 5px solid #fff;
+        background-color: #f0a500;
+    }
+.icon-red>img{
+    max-width: 80px;
+    max-height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    right: 0px;
+    margin: auto;
+}
+.enlac-social .icon-red .name-social{
+    color: #f0a500;
+}
+@media(min-width:400px){
+    .banner-princ .container-banner{
+        height: 150px;        
+    }
+    .banner-princ .container-banner> img{
+        transform: scale(1.75); 
+        height: 60px;
+    }
+}
+@media(min-width:500px){
+    .banner-princ .container-banner{
+        height: 155px;                
+    }
+    .banner-princ .container-banner> img{
+        transform: scale(1.6); 
+        height: 70px;
+    }
+}
+@media(min-width:600px){
+    .banner-princ .container-banner{
+        height: 165px;       
+    }
+    .banner-princ .container-banner> img{
+        transform: scale(1.5); 
+        height: 80px;
+    }
+}
+@media(min-width:700px){
+    .banner-princ .container-banner{
+        height: 180px;    
+    }
+    .banner-princ .container-banner> img{
+        transform: scale(1.4); 
+        height: 100px;
+    }
+}
+@media(min-width:900px){
+    .banner-princ .container-banner{
+        height: 200px;        
+    }
+    .banner-princ .container-banner> img{
+        transform: scale(1.2); 
+        height: 140px;
+    }
+}
+@media(min-width:1024px){
+    .banner-princ .container-banner> img{
+        transform: none;
+    }
+    .desarrollador{
+        padding-top: 70px;
+    }
+    .desarrollador .container-powered .title-ar{
+        font-size: 40px;
+        text-align: center;
+    }
+    .container-powered .fila-ctc{
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .fila-ctc .ct-fila{
+        display: flex;
+    }
+    .ct-fila .cargo-p{
+        margin-right: 15px;
+    }
+    .logotipo-pwrd{
+        width: 30%;
+    }
+    .logotipo-pwrd>img{
+        width: 150px;
+    }
+}
