@@ -114,33 +114,75 @@
     margin: auto;
     justify-content: center;
 }
-.container-punt table:not(.table-grupo-cl){
-    border-collapse: collapse;
+.container-punt table,td{
+    border-collapse: collapse;    
+    border: 2px solid #f0a500;
     margin: 15px 0;
-    text-align: center;
-}
-.container-punt table,th,td:not(.table-grupo-cl,th,td){    
-    border: 1px solid #f0a500;    
-    padding: 0px 10px;    
+    text-align: center;    
 }
 .container-punt table tr>th{
     background-color: #f0a500;
-    color: #1a1c20;
-    min-width: 50px;
+    color: #1a1c20;     
+}
+.container-punt table tr>.top-table{
+    min-width: 30px;
+    max-width: 50px;
+}
+.container-punt table tr>.puntaje-table{
+    min-width: 150px;
+    max-width: 150px;
 }
 .container-punt .table-kill{
     background-color: #f0a500;
     color: #1a1c20;
-    height: 175px;    
+    height: 653px; 
+    min-width: 100px;   
 }
-@media(min-width:530px){
+#fuente-autor{
+    list-style: none;
+    text-align: center;
+    font-size: 9px;
+}
+#inframe-list{
+    text-align: center;
+    list-style: none;
+    width: 100%;
+}
+@media(min-width:530px){    
     #mapa-semifinal .mapas-caida .container-map>img{
         width: 200px;
+    }
+    .container-punt table tr>.top-table{
+        min-width: 50px;
+        max-width: 50px;
+    }
+    .container-punt table tr>.puntaje-table{
+        min-width: 200px;
+    }
+    #inframe-list>.iframe-sts{
+        min-width: 400px;   
+        min-height: 425px;     
     }
 }
 @media(min-width:755px){
     #mapa-semifinal .mapas-caida .container-map>img{
         width: 300px;
+    }
+    .container-punt table tr>.top-table{
+        min-width: 90px;
+    }
+    .container-punt table tr>.puntaje-table{
+        min-width: 300px;
+    }
+    .container-punt .table-kill{
+        min-width: 200px;
+    }
+    #fuente-autor{
+        font-size: 12px;
+    }
+    #inframe-list>.iframe-sts{
+        min-width: 600px; 
+        min-height: 625px;       
     }
 }
 @media(min-width:1024px){    
@@ -160,5 +202,15 @@
     #mapa-semifinal .mapas-caida .container-map>img{
         width: 400px;
     }
-    
+    .container-punt .table-kill{
+        min-width: 300px;
+        font-size: 25px;
+    }
+    #fuente-autor{
+        font-size: 14px;
+    }
+    #inframe-list>.iframe-sts{
+        min-width: 900px; 
+        min-height: 905px;       
+    }
 }
