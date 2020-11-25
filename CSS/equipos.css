@@ -14,19 +14,27 @@
 }
 
 .table-grupo-cl .th-table,.part-fl{
-    border-top: 3px solid #f0a500;
+    border-top: 3px solid #fff;
     display: inline-flex;
     width: 100%;
     justify-content: space-between;  
     align-items: center;  
 }
+.part-fl.eliminado{
+    background-color: rgb(189, 52, 52);
+}
 .table-grupo-cl .th-table>h3{
     margin: 0 15px;
     color: #f0a500;
 }
- .pos-table{
+.pos-table{
     width: 20%;
     text-align: center;
+}
+.th-table.active{
+    background-color: #fff;
+    color: blueviolet;
+    font-weight: bold;
 }
 .logo-equipo{
     width: 40%;
