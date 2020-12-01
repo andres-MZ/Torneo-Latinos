@@ -135,7 +135,7 @@
 .container-punt .table-kill{
     background-color: #f0a500;
     color: #1a1c20;
-    height: 653px; 
+    height: 188px; 
     min-width: 100px;   
 }
 #fuente-autor{
@@ -161,7 +161,7 @@
     }
     #inframe-list>.iframe-sts{
         min-width: 400px;   
-        min-height: 425px;     
+        min-height: 401px;         
     }
 }
 @media(min-width:755px){
