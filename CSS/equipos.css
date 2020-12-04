@@ -57,42 +57,62 @@
 }
 
 /*ADVERT*/
-.not-disponible .container-not{
-    color: #fff;
+.mantenimiento{
+    justify-content: center;
     text-align: center;
-    padding: 30px;
 }
-.not-disponible .container-not>h1{
-    font-size: 32px;
-    color: #f0a500;
-    margin: 0;
-    padding: 0;
+.mantenimiento .container-mant{
+    max-width: 200px;
+    margin: auto;
 }
-.not-disponible .container-not p>i{
-    font-size: 100px;
-    padding-top: 15px;
+.mantenimiento .container-mant>p{
+    font-size: 12px;
 }
 
-.not-disponible .container-not>h2{
+.mantenimiento .container-mant>h3{
     font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
 }
-@media(min-width:760px){
-    .not-disponible .container-not p>i{
-        font-size: 150px;
-        padding-top: 15px;
+.mantenimiento .container-mant>h1{
+    font-size: 20px;
+}
+.mantenimiento .container-mant>i{
+    font-size: 150px;
+    padding: 10px;
+}
+
+
+@media(min-width:500px){
+    .mantenimiento .container-mant{
+        max-width: 400px;
+        margin: auto;
+    }
+    .mantenimiento .container-mant>i{
+        font-size: 250px;
+        padding: 15px;
+    }
+    .mantenimiento .container-mant>p{
+        font-size: 16px;
     }
 }
 @media(min-width: 1024px){
-    .not-disponible .container-not>h2{
+    .mantenimiento .container-mant{
+        max-width: 700px;
+        margin: auto;
+    }
+    .mantenimiento .container-mant>i{
+        font-size: 350px;
+        padding: 15px;
+    }
+    .mantenimiento .container-mant>p{
         font-size: 18px;
     }
-    .not-disponible .container-not p>i{
-        font-size: 200px;
-        padding-top: 25px;
+    .mantenimiento .container-mant>h3{
+        font-size: 18px;
     }
+    .mantenimiento .container-mant>h1{
+        font-size: 30px;
+    }
+
     .cl-grupo .header-grupo{
         width: 50%;
     }
